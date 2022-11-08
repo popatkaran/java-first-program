@@ -15,5 +15,13 @@ public class App
         return 2*number;
     }
 
-    private static int add(int[] numbers) { return -1;}
+    private static int add(int[] numbers) {
+        int sum = 0;
+
+        for (int number: numbers) {
+            sum = sum + number;
+        }
+
+        return sum;
+    }
 }

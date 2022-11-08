@@ -42,12 +42,12 @@ public class BestLoanRates {
     }
 
     private static String getUserName(@NotNull Scanner scanner) {
-        System.out.println("Enter your name:");
+        System.out.println("Enter your name");
         return scanner.nextLine();
     }
 
     private static int getLoanTermInYears(@NotNull Scanner scanner) {
-        System.out.println("Enter the loan term in years:");
+        System.out.println("Enter the loan term (in years)");
         return scanner.nextInt();
     }
 }
