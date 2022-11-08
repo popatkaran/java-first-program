@@ -29,7 +29,7 @@ public class BestLoanRates {
 
         /* provide appropriate message */
         if(Math.abs(loanInterestRate) > 0.0f) {
-            System.out.printf("Best Available Rate: %f", loanInterestRate);
+            System.out.println("Best Available Rate: " + loanInterestRate + "%");
         } else {
             System.out.printf("No available rates for term: %d years", loanTermInYears);
         }
